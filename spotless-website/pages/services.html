@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotless Solutions - Services</title>
+  <meta name="description" content="Discover our premium deep carpet cleaning service. Hand-washed and sanitized through a 6-step professional process for $3/m²." />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Spotless Solutions</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="mobileMenuBtn">☰</button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="home.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Service Info -->
+  <section class="hero service-hero">
+    <div class="container">
+      <h1>Deep Rug Cleaning</h1>
+      <p class="lead">Get a truly deep, hygienic clean at the most affordable prices, <strong> only $3/m²</strong>. Hand-washed with love and advanced high-tech steam sanitation for results you can <strong>see</strong> and <strong>feel</strong>.</p>
+    </div>
+  </section>
+
+<div class="rug-tips">     <!--API-->
+  <h3>Rug Cleaning Tip</h3>
+  <p id="rugTip">Click the button to get a tip!</p>
+  <button onclick="showRugTip()">Get Tip</button>
+</div>
+
+
+
+  <!-- Process Section -->
+  <section class="section process-section">
+    <h2 class="section-title">Our 6-Step Cleaning Process</h2>
+    
+    <div class="process-grid">
+      <div class="process-card"data-image="../assets/pictures/step1.jpg">
+        <span class="step-number">1</span>
+        <h3>Dust Removal</h3>
+        <p>We remove all surface dust and debris using specialized equipment.</p>
+      </div>
+      
+      <div class="process-card"data-image="../assets/pictures/step2.jpg">
+     <span class="step-number">2</span>
+        <h3>Water Soaking</h3>
+        <p>The rug is carefully soaked to loosen deep dirt before washing.</p>
+      </div>
+     
+      <div class="process-card"data-image="../assets/pictures/step3.jpg">
+      <span class="step-number">3</span>
+        <h3>Shampoo & Brushing</h3>
+        <p>We use premium solutions and hand-brush every fiber for a deep cleanse.</p>
+      </div>
+    
+      <div class="process-card"data-image="../assets/pictures/step4.jpg">
+        <span class="step-number">4</span>
+        <h3>Steam Rinse</h3>
+        <p>Steam rinse removes all bacteria and eliminates all the deep dirty spot.</p>
+      </div>
+    
+      <div class="process-card"data-image="../assets/pictures/step5.jpg">
+        <span class="step-number">5</span>
+        <h3>Sun Drying</h3>
+        <p>Your rug is dried under natural sunlight for 1 week to make sure the moisture is completely gone.</p>
+      </div>
+     
+      <div class="process-card"data-image="../assets/pictures/step6.jpg">
+       <span class="step-number">6</span>
+        <h3>Storage</h3>
+        <p>Final fragrance is added before we carefully store your fresh carpet.</p>
+      </div>
+    </div>
+  </section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Left Column -->
+    <div class="footer-col">
+      <h2 class="footer-logo">Spotless Solutions</h2>
+      <p>Professional deep rug cleaning with care and high-end technology. Your trusted partner for a spotless environment.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:info@spotlesssolutions.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-col">
+      <h3>Service</h3>
+      <ul>
+        <li><a href="services.html">Deep Cleaning</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul>
+        <li>+961 3 33 17 15   </li>
+        <li><a href="mailto:info@spotlesssolutions.com">info@spotlesssolutions.com</a></li>
+        <li>Keserwan, in the heart of Ajaltoun, after Moulin D'or, at Coral Station</li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Spotless Solutions. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="../script.js"></script>
+</body>
+</html>
